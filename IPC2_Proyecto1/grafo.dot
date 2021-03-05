@@ -1,0 +1,48 @@
+digraph structs {
+	node [shape=plaintext]
+	bgcolor=gray fontcolor=white
+	struct1 [label=<
+                <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" PORT="f0"><TR>
+                    <TD>MATRICES</TD>
+                </TR>
+                </TABLE>>]
+	struct2 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0"><TR><TD PORT="f0">Matriz_10</TD></TR></TABLE>>]
+	struct3 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">n = <TR><TD PORT="f0">n = 5</TD></TR></TABLE>>]
+	struct4 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0"><TR><TD PORT="f0">m = 4</TD></TR></TABLE>>]
+	struct5 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0"><TR>
+<TD PORT="f0">2</TD>
+<TD PORT="f0">3</TD>
+<TD PORT="f0">0</TD>
+<TD PORT="f0">4</TD>
+</TR>
+<TR>
+<TD PORT="f0">0</TD>
+<TD PORT="f0">0</TD>
+<TD PORT="f0">6</TD>
+<TD PORT="f0">3</TD>
+</TR>
+<TR>
+<TD PORT="f0">3</TD>
+<TD PORT="f0">4</TD>
+<TD PORT="f0">0</TD>
+<TD PORT="f0">2</TD>
+</TR>
+<TR>
+<TD PORT="f0">1</TD>
+<TD PORT="f0">0</TD>
+<TD PORT="f0">1</TD>
+<TD PORT="f0">5</TD>
+</TR>
+<TR>
+<TD PORT="f0">0</TD>
+<TD PORT="f0">0</TD>
+<TD PORT="f0">3</TD>
+<TD PORT="f0">1</TD>
+</TR>
+</TABLE>>
+]
+	struct1:f0 -> struct2:f0
+	struct2:f0 -> struct3:f0
+	struct2:f0 -> struct4:f0
+	struct2:f0 -> struct5:f0
+}
