@@ -1,0 +1,19 @@
+digraph G{
+node [shape=record, height=.1];
+"129937367926"[label=" <f0> | { { <f1> 201501786 } | { Juan Curiel } |  {Ingenieria Industrial } } | <f2>"];
+"129937367923"[label=" <f0> | { { <f1> 1 } | { Emilia Miramontes } |  {Ingenieria en Ciencias y Sistemas } } | <f2>"];
+"129937367917"[label=" <f0> | { { <f1> 0 } | { Emilia Miramontes } |  {Ingenieria en Ciencias y Sistemas } } | <f2>"];
+"129937378127"[label=" <f0> | { { <f1> 2123456 } | { Hamblet Stiff } |  {Ingeniería en Ciencias y Sistemas } } | <f2>"];
+"129937367869"[label=" <f0> | { { <f1> 1111 } | { GERSON } |  {Ingeniería en Ciencias y Sistemas } } | <f2>"];
+"129937368019"[label=" <f0> | { { <f1> 201001786 } | { Juan Curiel } |  {Ingenieria Industrial } } | <f2>"];
+"129937368028"[label=" <f0> | { { <f1> 201908686 } | { Juan Curiel } |  {Ingenieria Industrial } } | <f2>"];
+"129937368031"[label=" <f0> | { { <f1> 201822186 } | { Eloisa Rincón } |  {Ingenieria Civil } } | <f2>"];
+"129937367926":f0 -> "129937367923":f1;
+"129937367926":f2 -> "129937368028":f1;
+"129937367923":f0 -> "129937367917":f1;
+"129937367923":f2 -> "129937378127":f1;
+"129937378127":f0 -> "129937367869":f1;
+"129937378127":f2 -> "129937368019":f1;
+"129937368028":f0 -> "129937368031":f1;
+
+}
