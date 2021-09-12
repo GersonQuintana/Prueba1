@@ -16,14 +16,14 @@ class GrafoABB:
         
 
         self.contInser = self.contInser + 1
-        filename = "insercion.dot"
+        filename = "Grafos/insercion.dot"
 
         acumuladores[0] += acumuladores[1] + "\n}"
         archivo = open(filename, "w")
         archivo.write(acumuladores[0])
         archivo.close()
 
-        check_call(['dot','-Tpng',filename,'-o', 'insercion.png'])
+        check_call(['dot','-Tpng',filename,'-o', 'Grafos/insercion.png'])
 
         
 
